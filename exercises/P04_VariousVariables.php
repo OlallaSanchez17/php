@@ -2,12 +2,10 @@
 
 class P04_VariousVariables {
     public function main(): void {
-        // MODIFY THESE:
-        $numberOfChicken = 3;
-        $baconWeight = 5.5;
-        $tractor = "None!";
+        $numberOfChicken = 9000;
+        $baconWeight = 0.1;
+        $tractor = "Zetor";
 
-        // DON'T MODIFY THESE:
         echo "Chicken:\n";
         echo $numberOfChicken . "\n";
         echo "Bacon (kg):\n";

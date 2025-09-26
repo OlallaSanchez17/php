@@ -5,8 +5,10 @@ class P09_MultiplicationFormula {
         // Define two numbers
         $numA = 4;
         $numB = 4;
+        
+        $multiplicacion = $numA * $numB;
 
         // Output the formula and result
-        // Write the program here
+        echo "$numA * $numB = $multiplicacion\n";
     }
 }

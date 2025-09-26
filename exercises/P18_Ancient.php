@@ -12,6 +12,6 @@ class P18_Ancient
         $year = trim(fgets($GLOBALS['STDIN'] ?? STDIN));
 
         // Check year value
-     
+        
     }
 }

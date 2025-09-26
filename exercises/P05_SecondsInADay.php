@@ -5,7 +5,9 @@ class P05_SecondsInADay {
         // Output the label
         echo "Seconds in 1 day:\n";
         
-        // Calculate the number of seconds in a day
-        // Write your program here
+        $secondsInDay = 60 * 60 * 24;
+        
+        // Print the result
+        echo $secondsInDay . "\n";
     }
 }

@@ -9,6 +9,6 @@ class P13_SimpleCalculator {
         // Perform and output the calculations
         // Write the program here
        
-       
+       $suma = $numA + $numB;
     }
 }

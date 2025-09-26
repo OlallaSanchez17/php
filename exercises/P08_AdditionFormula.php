@@ -6,8 +6,9 @@ class P08_AdditionFormula {
         $numA = 2;
         $numB = 2;
 
+        $sumas = $numA + $numB;
+
         // Output the formula and result
-        // Write the program here
-       
+        echo "$numA + $numB = $sumas\n";
     }
 }

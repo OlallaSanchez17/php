@@ -30,8 +30,8 @@ final class P20_AdulthoodTest extends TestCase
         $this->assertStringContainsString('How old are you?', $output);
 
         if ($shouldBeAdult) {
-            $this->assertStringContainsString('You are an adult', $output, "Expected 'You are an adult' for input '$input'");
-            $this->assertStringNotContainsString('You are not an adult', $output, "Did NOT expect 'You are not an adult' for input '$input'");
+            $this->assertStringContainsString('You are an adult', haystack: $output, message: "Expected 'You are an adult' for input '$input'");
+            $this->assertStringNotContainsString('You are not an adult', haystack: $output, "Did NOT expect 'You are not an adult' for input '$input'");
         } else {
             $this->assertStringContainsString('You are not an adult', $output, "Expected 'You are not an adult' for input '$input'");
             $this->assertStringNotContainsString('You are an adult', $output, "Did NOT expect 'You are an adult' for input '$input'");
