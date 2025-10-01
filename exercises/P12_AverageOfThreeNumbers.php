@@ -1,19 +1,14 @@
 <?php
 
-class P12_AverageOfThreeNumbers {
+class P12_AverageOfThree {
     public function main(): void {
-        // Define three numbers
-        $numA = 10;
-        $numB = 10;
-        $numc = 12;
+        $numA = 8;
+        $numB = 12;
+        $numC = 12;
 
-        // Output the formula and result
-        // Write the program here
+        $average = ($numA + $numB + $numC) / 3;
 
-        $suma = $numA + $numB + $numc;
-        $division = $suma / 2;
-
-        echo "The average is $suma / 2 = $division";
-
+        echo "The average is $average\n";
     }
 }
+

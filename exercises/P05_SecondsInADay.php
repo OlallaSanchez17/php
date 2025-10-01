@@ -1,13 +1,14 @@
 <?php
 
-class P05_SecondsInADay {
+class P05_SecondsInOneDay {
     public function main(): void {
-        // Output the label
+        $hours = 24;
+        $minutesPerHour = 60;
+        $secondsPerMinute = 60;
+
+        $secondsInOneDay = $hours * $minutesPerHour * $secondsPerMinute;
+
         echo "Seconds in 1 day:\n";
-        
-        $secondsInDay = 60 * 60 * 24;
-        
-        // Print the result
-        echo $secondsInDay . "\n";
+        echo "$secondsInOneDay\n";
     }
 }

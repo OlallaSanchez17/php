@@ -1,14 +1,19 @@
 <?php
 
-class P13_SimpleCalculator {
+class P13_ArithmeticOperations {
     public function main(): void {
-        // Define two numbers
+        
         $numA = 8;
         $numB = 2;
 
-        // Perform and output the calculations
-        // Write the program here
-       
-       $suma = $numA + $numB;
+        $suma = $numA + $numB;
+        $resta = $numA - $numB;
+        $producto = $numA * $numB;
+        $cociente = number_format($numA / $numB, 1); 
+
+        echo "$numA + $numB = $suma\n";
+        echo "$numA - $numB = $resta\n";
+        echo "$numA * $numB = $producto\n";
+        echo "$numA / $numB = $cociente\n";
     }
 }

@@ -4,14 +4,22 @@ class P18_Ancient
 {
     public function main(): void
     {
-        // Write your code here
-        // Prompt the user for input
+
         echo "Give a year: ";
 
-        // Get input from the user
+        
         $year = trim(fgets($GLOBALS['STDIN'] ?? STDIN));
 
-        // Check year value
-        
+        if (is_numeric($year)) {
+            $year = intval($year);
+
+            if ($year < 2010) {
+                echo "Ancient\n";
+            } else {
+                echo "Modern\n";
+            }
+        } else {
+            echo "Invalid input\n";
+        }
     }
 }
